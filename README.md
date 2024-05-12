@@ -14,3 +14,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 Add your ideas here :)
+
+- To turn the circles in the block's background images into animated elements as was done in the "about" section.
