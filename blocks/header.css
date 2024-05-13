@@ -13,7 +13,6 @@
 }
 
 .header__title {
-  font-family: "Inter";
   letter-spacing: -0.6px;
   font-size: 60px;
   line-height: 72px;
@@ -25,7 +24,7 @@
 
 .header__span-accent {
   font-style: italic;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -33,7 +32,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
@@ -55,8 +54,6 @@
   display: flex;
   justify-content: space-between;
   margin: auto 80px 40px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
