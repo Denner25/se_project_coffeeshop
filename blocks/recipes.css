@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #0a2750;
+  background-position: center;
   padding: 100px 80px 215px;
 }
 
@@ -41,21 +42,14 @@
   border: none;
 }
 
-.recipes__iframe-caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
+  margin: 24px 0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: white;
-}
-
-.recipes__iframe-title {
-  margin: 0;
-}
-.recipes__iframe-length {
-  margin: 0;
 }

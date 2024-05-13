@@ -60,18 +60,12 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__hours-wrapper">
-            <div class="header__hours-title">Hours:</div>
-            <ul class="header__hours">
-              <li class="header__hours-weekdays">
-                Monday – Friday (10:00 – 19:00)
-              </li>
-              <li class="header__hours-weekend">
-                Saturday – Sunday (11:00 – 18:00)
-              </li>
-            </ul>
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <p class="header__address">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -93,10 +87,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__iframe-caption">
-                <div class="recipes__iframe-title">Aeropress recipe</div>
-                <div class="recipes__iframe-length">~5 min</div>
-              </div>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
+              </p>
             </li>
             <li class="recipes__item">
               <iframe
@@ -107,10 +101,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__iframe-caption">
-                <div class="recipes__iframe-title">French press recipe</div>
-                <div class="recipes__iframe-length">~15 min</div>
-              </div>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span>
+                <span>~15 min</span>
+              </p>
             </li>
           </ul>
         </section>
@@ -141,7 +135,7 @@
               <label class="form__label" for="datetime">Date & time *</label>
               <input
                 type="datetime-local"
-                class="form__input"
+                class="form__input form__input-datetime"
                 id="datetime"
                 required
               />
@@ -275,24 +269,18 @@
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a class="footer__social-link" href="#">
-                  <img
-                    src="./images/facebook_white.svg"
-                    alt="Facebook logo"
-                    class="footer__social-icon" /></a
-                ><a class="footer__social-link" href="#">Facebook</a>
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook logo"
+                  class="footer__social-icon"
+                /><a class="footer__social-link" href="#">Facebook</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__social-link" href="#">
-                  <img
-                    src="./images/instagram_white.svg"
-                    alt="Instagram logo"
-                    class="footer__social-icon" /></a
-                ><a class="footer__social-link" href="#">Instagram</a>
-                <!-- I used two anchor tags with the "footer__column-link" element,
-                one for the image and one for the social media name, so that
-                the space between the image and the social media name wouldn't
-                be part of the clickable link and only the elements themselves would. -->
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram logo"
+                  class="footer__social-icon"
+                /><a class="footer__social-link" href="#">Instagram</a>
               </li>
             </ul>
           </div>

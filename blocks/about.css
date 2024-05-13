@@ -33,17 +33,13 @@
   margin: 119px 80px 173px 0;
   max-width: 660px;
   z-index: 1;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
 
 .about__paragraph {
-  margin-bottom: 20px;
-}
-
-.about__paragraph:first-child {
-  margin-top: 0;
+  margin: 0 0 20px;
 }
 
 .about__paragraph:last-child {
